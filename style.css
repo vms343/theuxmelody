@@ -1,0 +1,38 @@
+.header {
+    overflow: hidden; 
+    background-color:#D1EFF5;
+	padding: 20px 10px; 
+}
+
+.header a {
+    float: left; 
+    color: #353940; 
+    text-align: center; 
+    padding: 15px; 
+    text-decoration: none;
+    font-family:"Cuprum";
+    font-style: "bold";
+    font-size: 25px; 
+    line-height: 25px; 
+    border-radius: 4px;
+}
+
+.header a.logo{
+    font-family:"Cuprum";
+    font-size: 35px; 
+    color: #353940; 
+}
+
+.header a.logo:hover{
+    text-decoration:none; 
+    
+}
+
+.header a:hover {
+	color: white;
+}
+
+
+.header-right {
+    float: right;
+}
