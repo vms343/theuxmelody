@@ -1,3 +1,4 @@
+/* Header */
 .header {
     overflow: hidden; 
     background-color:#D1EFF5;
@@ -35,4 +36,170 @@
 
 .header-right {
     float: right;
+}
+
+/* Home Page */
+
+.boombox {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-top:50px;
+    padding-bottom:30px;
+    width:600px;
+}
+
+.div_text {
+    margin:auto;
+    width:40%;
+}
+
+.intro_text {
+    font-family:"Cuprum";
+    font-size: 80px;
+    text-align:center;
+}
+
+
+/* About */
+
+#about_title {
+    font-family:"Cuprum";
+    font-style:bold;
+    color: #353940;
+    font-size:40px;
+    padding-top:50px;
+}
+
+#about_image {
+    float: right;
+    margin-right:120px;
+    padding-top:50px;
+    width:30%;
+
+}
+
+.about_text {
+    font-family:"Cuprum";
+    color:#353940;
+    font-size:25px;
+    padding-top:20px;
+}
+
+.about_paragraph {
+    margin-left:120px;
+    width:45%;
+}
+
+/* Blog */
+
+.div_blog {
+    margin:auto;
+    text-align:center;
+}
+
+.blog_title {
+    font-family:"Cuprum";
+    font-style:bold;
+    color: #353940;
+    font-size:40px;
+    padding-top:50px;
+}
+
+.section_title {
+    font-family:"Cuprum";
+    font-style:bold;
+    color: #353940;
+    font-size:25px;
+    padding-top:20px;
+    margin-left:40px;
+}
+
+
+.article_title {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-family:"Cuprum";
+    font-style:bold;
+    color: #353940;
+    text-align:center;
+    font-size:40px;
+    padding-top:50px;
+    
+}
+
+.article{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    padding-top:25px;
+    padding-bottom:50px;
+}
+
+.article_body{
+    font-family:"Cuprum";
+    color:#353940;
+    font-size:20px;
+    line-height:1.75;
+    
+}
+
+.article_date {
+    font-family:"Cuprum";
+    color:#C4C4C4;
+    padding-top:20px;
+    font-size:20px;
+}
+
+.article_image {
+    padding-bottom:10px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+
+/* Blog Cards */
+
+.card{
+    margin-top:20px;
+    margin-left:40px;
+}
+
+.card-deck {
+    margin: 20px;
+}
+
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:280px;
+}
+
+.card-title {
+    font-family:"Cuprum";
+    font-style:bold;
+    color:#353940;
+    font-size:28px;
+    padding-top:20px;
+}
+
+.card-text {
+    font-family:"Cuprum";
+    color:#C4C4C4;
+    font-size:18px;
+    padding-top:10px;
+    width:500px;
+}
+
+.text-muted {
+    font-family:"Cuprum";
+    color:#C4C4C4;
+    font-size:16px;
+    padding-top:5px;
 }
