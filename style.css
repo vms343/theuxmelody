@@ -243,3 +243,190 @@
     color:#C4C4C4;
     font-size:16px;
 }
+
+@media only screen 
+  and (min-device-width: 375px) and (max-device-width:812px) { 
+      
+      /* Header */
+      
+.header {
+    overflow: hidden; 
+    background-color:#D1EFF5;
+	padding: 20px 5px; 
+}
+
+.header a {
+    float: left; 
+    color: #353940; 
+    padding: 10px; 
+    font-size: 20px; 
+    border-radius:4px;
+}
+
+.header a.logo{
+    font-family:"Cuprum";
+    font-size: 30px; 
+    color: #353940; 
+}
+
+/* Home Page */
+
+.boombox {
+    padding-top:120px;
+    width:300px;
+}
+
+.div_text {
+    margin:auto;
+    width:90%;
+}
+
+.intro_text {
+    font-size: 60px;
+}
+
+
+/* About */
+
+#about_title {
+    font-size:30px;
+    padding-top:50px;
+    margin-left:20px;
+}
+
+#about_image {
+    margin-right:60px;
+    margin-left:60px;
+    padding-bottom:50px;
+    width:70%;
+
+}
+
+.about_text {
+    font-size:18px;
+    padding-top:20px;
+    margin-left:20px;
+}
+
+.about_paragraph {
+    margin:0px;
+    padding-left:40px;
+    width:90%;
+}
+
+/* Blog */
+
+
+.blog_title {
+    font-size:30px;
+    padding-top:30px;
+}
+
+.section_title {
+    margin-left:22px;
+    font-size:25px;
+}
+
+
+.article_title {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:35px;
+    padding-top:50px;
+    
+}
+
+.article{
+    width:80%;
+}
+
+.article_date {
+    font-size:19px;
+}
+
+.article_image {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+}
+
+.sub_title{
+    font-family:"Cuprum";
+    font-style:bold;
+    font-size:35px;
+    color: #353940;
+    text-decoration:underline;
+}
+
+.quote {
+    font-family:"Cuprum";
+    font-style:bold italic;
+    font-size:28px;
+    color: #353940;
+}
+
+.quote_2 {
+    font-family:"Cuprum";
+    font-style:bold italic;
+    font-size:25px;
+    color: #353940;
+}
+
+.sub_sub_title{
+    font-family:"Cuprum";
+    font-style:italic;
+    font-size:30px;
+    color: #353940;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-style: bold;
+}
+
+
+/* Blog Cards */
+
+.section{
+    padding-bottom:50px;
+}
+
+.card {
+    margin-top:15px;
+    margin-left:0px;
+}
+
+.card-deck {
+    margin:20px;
+}
+
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+    height:200px;
+}
+
+.card-title {
+    font-size:24px;
+}
+
+.card-text {
+    font-size:16px;
+    padding-top:10px;
+}
+
+.text-muted {
+    font-size:15px;
+}
+
+      
+
+}
