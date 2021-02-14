@@ -219,8 +219,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:400px;
-    height:300px;
+    width:380px;
+    height:260px;
 }
 
 .card-title {
@@ -259,20 +259,20 @@
     float: left; 
     color: #353940; 
     padding: 10px; 
-    font-size: 20px; 
+    font-size: 18px; 
     border-radius:4px;
 }
 
 .header a.logo{
     font-family:"Cuprum";
-    font-size: 30px; 
+    font-size: 28px; 
     color: #353940; 
 }
 
 /* Home Page */
 
 .boombox {
-    padding-top:120px;
+    padding-top:50px;
     width:300px;
 }
 
@@ -282,7 +282,7 @@
 }
 
 .intro_text {
-    font-size: 60px;
+    font-size:40px;
 }
 
 
