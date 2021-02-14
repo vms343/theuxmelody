@@ -247,32 +247,28 @@
 @media only screen 
   and (min-device-width: 375px) and (max-device-width:812px) { 
       
-      /* Header */
+/* Header */
       
 .header {
-    overflow: hidden; 
     background-color:#D1EFF5;
-	padding: 20px 5px; 
+	padding: 10px 5px; 
 }
 
 .header a {
     float: left; 
-    color: #353940; 
     padding: 10px; 
     font-size: 18px; 
     border-radius:4px;
 }
 
 .header a.logo{
-    font-family:"Cuprum";
-    font-size: 28px; 
-    color: #353940; 
+    font-size: 24px; 
 }
 
 /* Home Page */
 
 .boombox {
-    padding-top:50px;
+    padding-top:30px;
     width:300px;
 }
 
@@ -282,7 +278,7 @@
 }
 
 .intro_text {
-    font-size:40px;
+    font-size:38px;
 }
 
 
